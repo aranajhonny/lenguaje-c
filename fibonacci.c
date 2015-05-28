@@ -1,19 +1,18 @@
-/* Displaying Fibonacci sequence up to nth term where n is entered by user. */
-#include <stdio.h>
+#include<stdio.h>
 int main()
-{
-  int count, n, t1=0, t2=1, display=0;
-  printf("Enter number of terms: ");
-  scanf("%d",&n);
-  printf("Fibonacci Series: %d+%d+", t1, t2); /* Displaying first two terms */
-  count=2;    /* count=2 because first two terms are already displayed. */
-  while (count<n)  
-  {
-      display=t1+t2;
-      t1=t2;
-      t2=display;
-      ++count;
-      printf("%d+",display);
-  }
-  return 0;
+{	int suma=0,b=1,a=0, x;
+	printf ("Digitar el numero donde termine la serie de Fibonacci: ");
+	scanf("%d",&x);
+		while(suma<=x){
+			suma=b+a;
+			a = b;
+			b = suma;
+		if (suma==x)
+			printf("\n pertenece a la serie");
+		
+	}
+		if (suma!=x)
+			printf("%i\n",suma);
+		return 0;
+
 }
