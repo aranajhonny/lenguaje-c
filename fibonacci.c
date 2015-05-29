@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{	int suma=0,b=1,a=0, x;
+{	int suma=0,a=0,b=1, x;
 	printf ("introduzca un numero: ");
 	scanf("%d",&x);
 		while(suma<=x){
@@ -9,10 +9,12 @@ int main()
 			b = suma;
 		if (suma==x)
 			printf("\n pertenece a la serie fibonacci");
+	
+		else if (suma!=x)
+			printf("%d\n el siguiente numero de fibonacci es:",suma);
+			
+		}	
 		
-	}
-		if (suma!=x)
-			printf("%i\n el siguiente numero de fibonacci es:",suma);
 		return 0;
 
 }
