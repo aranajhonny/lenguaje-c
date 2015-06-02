@@ -11,6 +11,5 @@ int main(){
     printf("el numero a separar es%d\n", num);
     printf("el numero izquierdo es %d\n", digito_izq);
     printf("el numero iderecho es %d\n", digito_der);
-  
   return 0;
 }
