@@ -1,0 +1,2 @@
+int myVar;
+myVar = 3;
