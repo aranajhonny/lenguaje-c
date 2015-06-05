@@ -12,4 +12,5 @@ int main(){
         i = i + 3;
     }while(i<=26);
     return 0;
+
 }
