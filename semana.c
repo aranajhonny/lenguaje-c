@@ -1,7 +1,6 @@
 /*escribir un programa que tome como entrada un valor entre 1 y 7 e imprime el dia de la semana 
 que corresponde al numero que se ingreso . si la entrada no es valida mostrar un mensaje */
 #include<stdio.h>
-
 int main(){
 	int num_dia;
 		printf("\nintroduzca el numero del dia de la semana que quiere mostrar:");
